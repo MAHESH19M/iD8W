@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+.nav_container {
+    background: rgba(0,0,0,0.8);
+    padding: 0%;
+    margin: 0%;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.li a:hover {
+    background-color: gray;
+}
+
+.iD8 {
+    padding: 20%;
+    margin: 15px;
+    text-align: center;
+}
+
+.QnA {
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    margin: 15px;
+    padding: 20px;
+}
