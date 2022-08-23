@@ -3,3 +3,8 @@
 @import url(projects.css);
 @import url(join_us.css);
 @import url(team.css);
+
+.container {
+    max-width: 75em;
+    margin: 0 auto;
+}
