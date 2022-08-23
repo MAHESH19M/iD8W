@@ -5,6 +5,6 @@
 @import url(team.css);
 
 .container {
-    max-width: 75em;
+    max-width: 1200px;
     margin: 0 auto;
 }
