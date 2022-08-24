@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-/* ---------- Header CSS ---------- */
+/* ---------- Header ---------- */
 .header {
     background-color: #A32221;
     padding: 15px 0;
@@ -40,5 +40,37 @@
     text-decoration: none;
     color: #FFF;
     padding: 13px;
+}
+
+
+/* ---------- Footer ---------- */
+.footer {
+    background-color: #353535;
+    padding: 20px 0;
+}
+
+.footer .container p {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer .links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.footer .links a {
+    color: #FFF;
+    padding: 15px;
+}
+
+.footer .links a:first-child {
+    padding-left: 0;
+}
+
+.footer .links i {
+    font-size: 24px;
 }
 
