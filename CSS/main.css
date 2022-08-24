@@ -8,3 +8,37 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* ---------- Header CSS ---------- */
+.header {
+    background-color: #A32221;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../IMG/logo.png);
+    background-size: cover;
+}
+
+.header .nav-bar {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.header .nav-bar__item a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 13px;
+}
+
