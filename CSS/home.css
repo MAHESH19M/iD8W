@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     gap: 60px;
@@ -58,22 +58,25 @@ body {
 
 /* Discription on home page. */
 .discription_block {
-    background-color: #bbb;
     width: 480px;
     height: 323px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .discription_block h2 {
     font-size: 26px;
     font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .discription_block p {
     font-size: 22px;
     font-weight: 10;
+    margin: 20px;
 }
 
 /* Images */
