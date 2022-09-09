@@ -28,7 +28,7 @@ body {
     background-color: gray;
 }
 
-/* Home page headding. */
+/* Home Page */
 .title_banner {
     background-image: linear-gradient(to right, #E66465, #9198E5);
     display: flex;
@@ -42,15 +42,28 @@ body {
     font-weight: 700;
 }
 
-/* Discription on home page. */
 .description {
     margin: 30px 0;
 }
 
+.description .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+}
+
+/* Discription on home page. */
 .discription_block {
-    border: solid 2px black;
+    background-color: #bbb;
     width: 480px;
     height: 323px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 .discription_block h2 {
@@ -63,16 +76,16 @@ body {
     font-weight: 10;
 }
 
+/* Images */
+
 .display_square_image {
-    order: 1;
     width: 480px;
     height: 323px;
     background-color: #cac8c8de;}
 
 .display_circle_image {
-    order: 3;
-    height: 400px;
-    width: 400px;
+    height: 323px;
+    width: 323px;
     background-color: #bbb;
     border-radius: 50%;
 }
