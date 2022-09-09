@@ -28,14 +28,51 @@ body {
     background-color: gray;
 }
 
-.iD8 {
-    padding: 20%;
-    margin: 15px;
-    text-align: center;
+/* Home page headding. */
+.title_banner {
+    background-image: linear-gradient(to right, #E66465, #9198E5);
+    display: flex;
+    align-items: center;
+    height: 150px;
 }
 
-.QnA {
-    float: left;
-    padding: 5px;
-    margin-left: 15px;
+.title_banner .container h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Discription on home page. */
+.description {
+    margin: 30px 0;
+}
+
+.discription_block {
+    border: solid 2px black;
+    width: 480px;
+    height: 323px;
+}
+
+.discription_block h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.discription_block p {
+    font-size: 22px;
+    font-weight: 10;
+}
+
+.display_square_image {
+    order: 1;
+    width: 480px;
+    height: 323px;
+    background-color: #cac8c8de;}
+
+.display_circle_image {
+    order: 3;
+    height: 400px;
+    width: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
 }
